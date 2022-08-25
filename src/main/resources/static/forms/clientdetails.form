@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "client Name",
+      "type": "textfield",
+      "id": "Field_0mj5xu1",
+      "key": "name",
+      "description": "Enter the name of the client",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "uds",
+      "type": "textfield",
+      "id": "Field_0cdomqs",
+      "key": "uds",
+      "description": "How many Uds do they have?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "ID",
+      "type": "number",
+      "id": "Field_0tz41zq",
+      "key": "client_id",
+      "description": "Enter client id number",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "client_form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.2.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}
