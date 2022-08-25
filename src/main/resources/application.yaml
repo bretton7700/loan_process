@@ -1,9 +1,9 @@
 #spring.datasource.url: jdbc:h2:file:./camunda-h2-database
 
 camunda.bpm.admin-user:
-  id: ndovucloud
-  password: aiGURU@2020#brett
-  firstName: ndovucloud
+  id: user
+  password: password
+  firstName: user
   
 camunda.bpm:
   deployment-resource-pattern:
@@ -16,7 +16,7 @@ camunda.bpm:
    
 spring:
    datasource: 
-      url: jdbc:mysql://143.198.154.75:3333/loan_process
+      url: jdbc:mysql://localhost:3306/loan_process
       username: root
       password: Ndovucloud@2020
       driver-class-name: com.mysql.jdbc.Driver
